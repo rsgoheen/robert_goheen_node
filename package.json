@@ -9,6 +9,8 @@
     "mocha": "*",
     "chai": "*",
     "express": "3.4.4",
-    "mustache": "*"
+    "mustache": "*",
+    "hogan-middleware": "*",
+    "ejs": "*"
   }
 }
