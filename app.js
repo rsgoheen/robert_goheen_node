@@ -2,10 +2,7 @@ var express = require('express');
 var app = express();
 var mustache = require('mustache');
 
-
-
-
-app.get ('/', function(req.res) {
+app.get ('/', function(req, res) {
     res.send("Hello app");
 });
 
