@@ -1,0 +1,31 @@
+{	"taglines" : [
+		{"tagline": "Mistakenly Canadian since 2009.",
+		"font-size": 86},
+		{"tagline": "Shunning fizzy European piss-water lagers for hearty English ales since 2009.",
+		"font-size": 64},
+		{"tagline": "Pronouncing Berkshire correctly since 2011.",
+		"font-size": 72},
+		{"tagline": "Still trying to explain Seattle to the British.",
+		"font-size": 64}
+	],
+	"themes" : [
+		{"image": "arran_island_smaller.jpg",
+		 "font-color" : "#003333",
+		  "hover-font-color" : "#ffff00"},
+		{"image": "borough_market_smaller.jpg",
+		 "font-color" : "#ffff00",
+		  "hover-font-color" : "#ffffff"},
+		{"image": "churchill_arms_smaller.jpg",
+		 "font-color" : "#ffff00",
+		  "hover-font-color" : "#ffffff"},
+		{"image": "HelmsleyCastle_smaller.jpg",
+		 "font-color" : "#ffff00",
+		  "hover-font-color" : "#ffffff"},
+		{"image": "london_city_hall_smaller.jpg",
+		 "font-color" : "#ffff00",
+		  "hover-font-color" : "#ffffff"},
+		{"image": "richmond_park_deer_smaller.jpg",
+		 "font-color" : "#ffff00",
+		  "hover-font-color" : "#ffffff"}
+	]
+}
