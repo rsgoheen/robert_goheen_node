@@ -22,10 +22,10 @@
 		 "font-color" : "#ffff00",
 		  "hover-font-color" : "#ffffff"},
 		{"image": "london_city_hall_smaller.jpg",
-		 "font-color" : "#ffff00",
-		  "hover-font-color" : "#ffffff"},
+		 "font-color" : "#970000",
+		  "hover-font-color" : "#000000"},
 		{"image": "richmond_park_deer_smaller.jpg",
-		 "font-color" : "#ffff00",
+		 "font-color" : "#ffa300",
 		  "hover-font-color" : "#ffffff"}
 	]
 }
