@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "start": "node app.js"
+    "start": "supervisor app.js"
   },
   "dependencies": {
     "mocha": "*",
@@ -11,6 +11,7 @@
     "express": "3.4.4",
     "mustache": "*",
     "hogan-middleware": "*",
-    "ejs": "*"
+    "ejs": "*",
+    "supervisor": "*"
   }
 }
