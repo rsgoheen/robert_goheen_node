@@ -2,6 +2,9 @@ var express = require('express');
 var app = express();
 var path = require('path');
 
+var fs = require('fs');
+var logFile = fs.createWriteStream('./logs/expressLog.log', {flags: 'a'});
+
 var routes = require('./routes');
 
 app.set('port', process.env.PORT || 16541);
