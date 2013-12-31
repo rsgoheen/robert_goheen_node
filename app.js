@@ -13,7 +13,7 @@ app.set('view engine', 'mustache');
 app.engine('mustache', require('hogan-middleware').__express)
 
 app.use(express.favicon());
-app.use(express.logger('dev'));
+app.use(express.logger({'stream': logFile}));
 app.use(express.json());
 app.use(express.urlencoded());
 app.use(express.methodOverride());
