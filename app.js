@@ -6,6 +6,7 @@ var logConfig = require('./logConfig.js');
 
 var routes = require('./routes');
 
+app.set('trust proxy', true);
 app.set('port', process.env.PORT || 16541);
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'mustache');
