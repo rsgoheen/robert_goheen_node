@@ -12,14 +12,19 @@
 
       <style type="text/css">
 
+      html {
+        background: url('assets/img/{{#theme}}{{image}}{{/theme}}') no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+      }
+
       body {
         text-align: center;
         padding-top: 20px;
         padding-left: 20px;
         padding-bottom: 40px;         
-        background: url('assets/img/{{#theme}}{{image}}{{/theme}}');
-        background-repeat: no-repeat;
-        background-position: center top;
       }
       .content {
         margin-left: auto;
