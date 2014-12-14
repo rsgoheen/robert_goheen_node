@@ -9,7 +9,9 @@
       <link href='http://fonts.googleapis.com/css?family=Cutive+Mono' rel='stylesheet' type='text/css'>
       <link href='http://fonts.googleapis.com/css?family=Rokkitt:400,700' rel='stylesheet' type='text/css'>
       <link href='http://fonts.googleapis.com/css?family=Crete+Round' rel='stylesheet' type='text/css'>      
-
+      
+      <link href="assets/css/normalize.css" rel='stylesheet' type='text/css'>
+      
       <style type="text/css">
 
       html {
@@ -30,7 +32,7 @@
         margin-left: auto;
         margin-right: auto;
         text-align: left;
-        width: 1200px;
+        padding: 3em 8em 4em 4em;
       }
       h1 {
         color: {{#theme}}{{font-color}}{{/theme}};
@@ -63,6 +65,12 @@
       }
       a:hover {
         color: {{#theme}}{{hover-font-color}}{{/theme}};
+      }
+
+      @media only screen and (max-width: 1000px) {
+        .content {
+          padding: 2em 2em 2em 2em !important;
+        }
       }
 
       </style>     
