@@ -21,6 +21,7 @@ app.use(app.router);
 app.use(express.static(path.join(__dirname, 'static')));
 
 app.get ('/', routes.index);
+app.get ('/affiliates', routes.affiliates);
 
 var port = app.get('port');
 app.listen(port);
