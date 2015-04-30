@@ -22,7 +22,7 @@ app.use(app.router);
 app.use(express.static(path.join(__dirname, 'static')));
 
 app.get ('/', routes.index);
-app.get ('/affiliates', affiliate.show);
+app.get ('/affiliate', affiliate.show);
 
 var port = app.get('port');
 app.listen(port);
