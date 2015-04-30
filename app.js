@@ -5,7 +5,7 @@ var path = require('path');
 var logConfig = require('./logConfig.js');
 
 var routes = require('./routes');
-var affiliate = require('./routes/affiliate');
+var affiliate = require('./routes/affiliate.js');
 
 app.set('trust proxy', true);
 app.set('port', process.env.PORT || 16541);
