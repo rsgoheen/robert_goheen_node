@@ -1,6 +1,6 @@
 var fs = require('fs');
 
-exports.affiliates = function(req, res) {
-	res.render('affiliates', req);
+exports.show = function(req, res) {
+	res.render('affiliate', req);
 };
 

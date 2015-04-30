@@ -5,6 +5,7 @@ var path = require('path');
 var logConfig = require('./logConfig.js');
 
 var routes = require('./routes');
+var affiliate = require('./routes/affiliate');
 
 app.set('trust proxy', true);
 app.set('port', process.env.PORT || 16541);
@@ -21,7 +22,7 @@ app.use(app.router);
 app.use(express.static(path.join(__dirname, 'static')));
 
 app.get ('/', routes.index);
-app.get ('/affiliates', routes.affiliates);
+app.get ('/affiliates', affiliate.show);
 
 var port = app.get('port');
 app.listen(port);
